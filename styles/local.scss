@@ -1,0 +1,62 @@
+.meal{
+
+  margin-bottom: 20px;
+  h2{
+
+  }
+
+}
+
+.home-hero{
+  background-image: url(../assets/home-background.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height:30vh;
+  position: relative;
+  > img{
+    margin:0 auto;
+    position: absolute;
+    bottom:0.5em;
+    left:calc(50% - 101px);
+
+  }
+}
+
+.page-title{
+  padding-top:2em;
+  height: 6em;
+  font-size:20px;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
+.floating-button{
+  position: fixed;
+  bottom: 1em;
+  right:1em;
+  width:4em;
+  height:4em;
+  background-color: darkorange;
+  border-radius: 2em;
+  padding:1em;
+
+  i {
+    font-size: 200%;
+    color: #FFF;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .floating-button {
+      position: absolute;
+      top:2em;
+      right:2em;
+  }
+}
+
+
+
